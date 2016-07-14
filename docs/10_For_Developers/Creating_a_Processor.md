@@ -92,3 +92,7 @@ public function addGenerators()
     return ['custom_generator' => '\Todaymade\Daux\Extension\MyNewGenerator'];
 }
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of d1b0a4e... remove
