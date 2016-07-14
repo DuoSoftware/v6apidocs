@@ -1,9 +1,9 @@
 Auth 6.0  is a secure token generator to access services provided by DuoWorld platform. This is a reset API and help developers to integrate and develop secure application and secure api with a federated security implementation.
 [TOC]
 ## Login
-**Method:**GET 
+**Method:** GET 
 
-**Path:**"http://duoworld.com/auth/Login/{username:string}/{password:string}/{domain:string}
+**Path:** "http://duoworld.com/auth/Login/{username:string}/{password:string}/{domain:string}
 
 **output:**	
 ```json
@@ -43,10 +43,10 @@ Auth 6.0  is a secure token generator to access services provided by DuoWorld pl
 ## Get Session
 **Method:**GET 
 
-**Path:**"/GetSession/{SecurityToken:string}/{Domain:string}"
+**Path:** "/GetSession/{SecurityToken:string}/{Domain:string}"
 
 **output:**	
-```
+```json
 	{
 		UserID: "81be58d531e905b16aac87589984642a",
 		Username: "lasitha.senanayake@gmail.com",
@@ -61,16 +61,16 @@ Auth 6.0  is a secure token generator to access services provided by DuoWorld pl
 	}    
 ```
 ## Request App Authorizing code  
-**Method:**GET
+**Method:** GET
 
-**Path:**"/GetAuthCode/{SecurityToken:string}/{ApplicationID:string}/{URI:string}"
+**Path:** "/GetAuthCode/{SecurityToken:string}/{ApplicationID:string}/{URI:string}"
 
 **output:**	
 ```  
 "string"
 ```
 ## Authorize Application 
-**Method:**GET
+**Method:** GET
 
 **Path:**"/AutherizeApp/{SecurityToken:string}/{Code:string}/{ApplicationID:string}/{AppSecret:string}"
 
@@ -83,7 +83,7 @@ Auth 6.0  is a secure token generator to access services provided by DuoWorld pl
 
 **Post Data:**
 
-``
+```json
 {
 UserID: "",
 EmailAddress: "lasitha.senanayake@gmail.com",
@@ -92,12 +92,12 @@ Password: "password",
 ConfirmPassword: "password",
 Active: false
 }
-``
+```
 
 **Path:**"/UserRegistation/"
 
 **output:**	
-```  
+```json  
 {
 UserID: "81be58d531e905b16aac87589984642a",
 EmailAddress: "lasitha.senanayake@gmail.com",
@@ -111,7 +111,7 @@ Active: false
 **Method:** POST
 
 **Post Data:**
-```
+```json
 {
 UserID: "",
 EmailAddress: "lasitha.senanayake@gmail.com",
@@ -128,10 +128,10 @@ Active: false
 | ------------- |:-------------:| 
 | Securitytoken | `string'      | 
 
-**Path:**"/RegisterTenantUser/"
+**Path:** "/RegisterTenantUser/"
 
 **output:**	
-```  
+```json  
 {
 UserID: "81be58d531e905b16aac87589984642a",
 EmailAddress: "lasitha.senanayake@gmail.com",
@@ -142,30 +142,30 @@ Active: false
 }
 ```
 ## User Activation
-**Method:**GET
+**Method:** GET
 
-**Path:**"/UserActivation/{token:string}"
+**Path:** "/UserActivation/{token:string}"
 
 **output:**	
-```  
+```json  
 "bool"
 ```
 ## Logout
-**Method:**GET
+**Method:** GET
 
-**Path:**"/LogOut/{SecurityToken:string}"
+**Path:** "/LogOut/{SecurityToken:string}"
 
 **output:**	
-```  
+```json  
 "bool"
 ```
 ## Get User
-**Method:**GET
+**Method:** GET
 
-**Path:**"/GetUser/{Email:string}"
+**Path:** "/GetUser/{Email:string}"
 
 **output:**	
-```  
+```json  
 {
 UserID: "81be58d531e905b16aac87589984642a",
 EmailAddress: "lasitha.senanayake@gmail.com",
@@ -181,16 +181,16 @@ Active: false
 **Path:**"/GetGUID/"
 
 **output:**	
-```  
+```json  
 "string"
 ```
 ## Forgot Password
 **Method:** GET
 
-**Path:**"/ForgotPassword/{EmailAddress:string}/{RequestCode:string}"
+**Path:** "/ForgotPassword/{EmailAddress:string}/{RequestCode:string}"
 
 **output:**	
-```  
+```json  
 "bool"
 ```
 ## Change Password
