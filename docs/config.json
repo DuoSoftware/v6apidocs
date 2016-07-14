@@ -22,10 +22,7 @@
         "twitter": ["duoworld", "duoworld"],
         "google_analytics": "UA-12653604-10",
         "links": {
-            "Download": "https://github.com/DuoSoftware/Duoworldsite.zip",
-            "GitHub Repo": "https://github.com/DuoSoftware/Duoworldsite",
-            "Help/Support/Bugs": "https://github.com/DuoSoftware/Duoworldsite",
-            "Made by Todaymade": "http://todaymade.com"
+            "Duoworld.com": "http://www.duoworld.com"
         }
     }
 }

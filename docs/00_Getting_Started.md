@@ -6,31 +6,8 @@
 
 ### For Authors
 
-* [Auto Generated Navigation / Page sorting](!Features/Navigation_and_Sorting)
-* [Internal documentation links](!Features/Internal_links)
-* [Github Flavored Markdown](!Features/GitHub_Flavored_Markdown)
-* [Auto created homepage/landing page](!Features/Landing_page)
-* [Multiple Output Formats](!Features/Multiple_Output_Formats)
-* [Multiple Languages Support](!Features/Multilanguage)
-* [No Build Step](!Features/Live_mode)
-* [Static Output Generation](!Features/Static_Site_Generation)
-* [Table of Contents](!Features/Table_of_contents)
-
-### For Developers
-
-* [Auto Syntax Highlighting](!Features/Auto_Syntax_Highlight)
-* [Extend Daux.io with Processors](!For_Developers/Creating_a_Processor)
-* Full access to the internal API to create new pages programatically
-* Work with pages metadata
 
 ### For Marketing
-
-* 100% Mobile Responsive
-* 4 Built-In Themes or roll your own
-* Functional, Flat Design Style
-* Optional code float layout
-* Shareable/Linkable SEO Friendly URLs
-* Supports Google Analytics and Piwik Analytics
 
 ## Demos
 
@@ -97,7 +74,6 @@ You can use PHP's embedded web server by running the following command in the ro
 
 Upload your files to an apache / nginx server and see your documentation
 
-[More informations here](!Features/Live_mode)
 
 #### Export to other formats
 
@@ -107,7 +83,6 @@ Daux.io is extendable and comes by default with three export formats:
 - Export all documentation in a single HTML page
 - Upload to your Atlassian Confluence server.
 
-[See a detailed feature comparison matrix](!Features/Multiple_Output_Formats)
 
 Here's how you run an export:
 
@@ -115,11 +90,9 @@ Here's how you run an export:
 ./generate
 ```
 
-[See here for all options](!Features/Static_Site_Generation)
 
 ## Configuration
 
-Now that you got the basics, you can also [see what you can configure](!Configuration)
 
 
 ## Known Issues
